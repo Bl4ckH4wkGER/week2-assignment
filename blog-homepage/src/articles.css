@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 50%;
+  display: inline-grid;
+}
+
+.container{
+  margin: 20px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.image{
+  width: 300px;
+  margin: 20px;
+}
+
+.info-container{
+  text-align: left;
+}
+
+.author-image{
+  border-radius: 50%;
+}
+
+.audio{
+  color: grey;
+}
+
+.preview{
+  color: grey;
+}
