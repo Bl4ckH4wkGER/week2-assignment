@@ -1,20 +1,22 @@
 h1 {
-  text-align: center;
+  text-align: left;
 }
 
 .wrapper {
-  width: 50%;
-  display: inline-grid;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container{
+  width: 25%;
   margin: 20px;
+  padding: 20px;
   border: 1px solid black;
-  display: flex;
 }
 
 .image{
-  width: 300px;
+  width: 200px;
   margin: 20px;
 }
 
@@ -23,6 +25,7 @@ h1 {
 }
 
 .author-image{
+  width: 20%;
   border-radius: 50%;
 }
 

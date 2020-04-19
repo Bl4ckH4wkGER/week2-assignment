@@ -92,10 +92,13 @@ class YourArticles extends React.Component {
     return(
       <div>
         <h1>For you</h1>
+        <hr/>
         <div className='wrapper'>
           {yourArticlesData.map((article, index) => {return (
             <div className='your-article container' key={index}>
+              <div className='your-article image-container'>
               <LinkedImage source={article}/>
+              </div>
               <div className='your-article info-container'>
                 <Availability source={article}/>
                 <TitleDescriptionBlock source={article}/>

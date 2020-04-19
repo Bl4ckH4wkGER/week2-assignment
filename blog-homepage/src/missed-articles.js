@@ -92,10 +92,13 @@ class MissedArticles extends React.Component {
     return(
       <div>
         <h1>In case you missed</h1>
+        <hr/>
         <div className='wrapper'>
           {missedArticlesData.map((article, index) => {return (
             <div className='missed-article container' key={index}>
+              <div className='missed-article image-container'>
               <LinkedImage source={article}/>
+              </div>
               <div className='missed-article info-container'>
                 <Availability source={article}/>
                 <TitleDescriptionBlock source={article}/>
