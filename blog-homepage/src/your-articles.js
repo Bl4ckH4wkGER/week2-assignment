@@ -114,6 +114,4 @@ class YourArticles extends React.Component {
   }
 }
 
-
-
 export default YourArticles
